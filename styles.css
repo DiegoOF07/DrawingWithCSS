@@ -17,13 +17,14 @@
 .background{
     background-color: rgb(211, 211, 211);
     width: 100%;
-    flex: 1;
+    flex: 2;
 }
+
 
 .background:nth-child(2){
     display: flex;
     flex-flow: column nowrap;
-    flex: 2;
+    flex: 3;
 }
 
 .leaves{
@@ -82,23 +83,26 @@
 }
 
 .upperleaves{
-    border-radius: 60% 80% 0 0 / 85% 91% 9% 27%;
+    border-radius: 80% 80% 0 0 / 90% 90% 9% 27%;
 }
 
 
 .upperleaves .leave:first-child{
-    flex: 12;
-    border-radius: 50%  ;
+    background-color:rgb(29, 100, 15) ;
+    flex: 6;
+    border-radius: 66% 34% 76% 24% / 70% 0% 100% 30%;
 }
 
 .upperleaves .leave:nth-child(2){
-    flex: 6;
-    border-radius: 50%  ;
+    background-color:rgb(29, 100, 15) ;
+    flex: 12;
+    border-radius: 14% 86% 0% 100% / 41% 69% 31% 59%;
 }
 
 .upperleaves .leave:last-child{
+    background-color:rgb(29, 100, 15) ;
     flex: 12;
-    border-radius: 45% 55% 0% 100% / 36% 49% 51% 64%   ;
+    border-radius: 71% 29% 100% 0% / 50% 13% 87% 50%;
 }
 
 .petals{
@@ -109,9 +113,9 @@
 
 .flower{
     display: flex;
-    background-color:rgb(197, 129, 129) ;
+    background-color: rosybrown;
     flex:6;
-    border-radius: 68% 71% 74% 74% / 43% 39% 100% 100% ;
+    border-radius: 50% 50% 50% 50% / 11% 11% 89% 89%;
 }
 
 .flower > .petal{
@@ -135,6 +139,7 @@
 }
 
 .petal:nth-child(2){
+    background-color: rgb(177, 133, 133);
     border-radius: 100% 100% 100% 100% / 100% 100% 100% 100% ;
 }
 
